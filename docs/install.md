@@ -122,13 +122,13 @@ This is borrowed from the [NixOS manual](https://nixos.org/nixos/manual/index.ht
 1. Obtain latest NixOS. For example:
 
 	```
-	wget https://releases.nixos.org/nixos/18.09/nixos-18.09.2257.235487585ed/nixos-graphical-18.09.2257.235487585ed-x86_64-linux.iso
+	wget https://releases.nixos.org/nixos/19.03/nixos-19.03.172361.cf3e277dd0b/nixos-minimal-19.03.172361.cf3e277dd0b-x86_64-linux.iso
 	```
 
 2. Write NixOS iso to install media (USB/CD). For example:
 
 	```
-	dd if=nixos-graphical-18.09.2257.235487585ed-x86_64-linux.iso of=/dev/sdX
+	dd if=nixos-minimal-19.03.172361.cf3e277dd0b-x86_64-linux.iso of=/dev/sdX
 	```
 	Replace /dev/sdX with the correct device name. You can find this using `sudo fdisk -l`
 
