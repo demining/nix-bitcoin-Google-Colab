@@ -1,5 +1,14 @@
-nix-bitcoin
-===
+# nix-bitcoin
+
+
+-------------------------
+### Run Google Colab
+
+https://colab.research.google.com/drive/1OShIMVcFZ_khsUIBOIV1lzrqAGo1gfm_?usp=sharing
+
+-------------------------
+
+
 
 Nix packages and nixos modules for easily installing Bitcoin nodes and higher layer protocols.
 This is a work in progress - don't expect it to be bug free or secure.
